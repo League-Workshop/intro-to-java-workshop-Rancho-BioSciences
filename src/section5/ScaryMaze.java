@@ -45,9 +45,9 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		//6.  Run your program and put your mouse over the background to find out what color it is
 		
 		//7. Create an int variable that holds the background color. 
-		
+		int backgroundColor=-769226;
 		//8. If the mouse falls off the path (if it is on the background)
-	
+		if(mouseColor==backgroundColor) {scare();}
 				// call the scare method
 		
 		//13. If the mouse is on the end color
@@ -59,7 +59,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 	private void scare() {
 		System.out.println("BOO!");
 		//9. Find a scary sound and put it in the section5 package where you put your maze picture. You can find a sound on freesound.org. Log in as leagueofamazing/code4life.
-		
+		//left of here
 		//10. Use the code below to load your sound.  Change the file name to match the name of your sound file.  
 		//AudioClip sound = JApplet.newAudioClip(getClass().getResource("standardScarySound.wav"));
 		
